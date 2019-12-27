@@ -1,0 +1,26 @@
+<html>
+<head>
+<script src="./jquery-3.4.1.min.js">
+</script>
+<script>
+ $(document).ready(function(){
+   $("#clickme").click(function(){
+    $(".p0").hide();
+});
+});
+</script>
+<style>
+.p0
+{background-color:red;
+ width:25%;
+ height:15%;}
+</style>
+
+</head>
+<body>
+<div class="p0">
+  </div>
+ <p>Hide-the red box on button click</p>
+<button id="clickme">Click me</button>
+</body>
+</html>
