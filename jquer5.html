@@ -1,0 +1,135 @@
+<html>
+<head>
+<script src="./jquer-3.4.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+  $(document).ready(function(){
+   $(".alert").hide();
+});
+$(function() {
+ $(".p3").click((){
+    $(".alert").show();
+     $(".cross").show();
+}); 
+ $(".cross").click((){
+   $(".alert").hide();
+});
+});
+</script>
+<style>
+#Header{text-align:center;
+font-size:30px;
+color:white;
+}
+#SideBar{
+text-align:center;
+font-size:30px;
+color:white;}
+
+#MainContent
+ {
+ text-align:center;
+ font-size:30px;
+ color:white;}
+ 
+ #ExtraContent{
+ text-align:center;
+  font-size:30px;
+  color:white;}
+  
+  #Fotter{
+  text-align:center;
+  font-size:30px;
+  color:white;}
+ 
+.p0{height:100px;
+width:100%;
+background-color:lightblue;
+margin-left:10px;
+}
+.p1{
+float:left;
+height:300px;
+width:15%;
+background-color:lightgreen;
+margin-top:20px;
+margin-left:10px;
+}
+.p2{
+float:right;
+height:150px;
+width:80%;
+background-color:yellow;
+margin-top:20px;
+margin-right:0.5%;
+
+}
+.p4{
+ float:right;
+  height:130px;
+  width:80%;
+  background-color:gray;
+  margin-top:20px;
+  margin-right:0.5%;}
+.p3{
+height:100px;
+width:100%;
+background-color:darkorange;
+margin-bottom:200px;
+margin-left:10px;
+margin-top:350px;
+}
+.alert{
+ background-color:rgb(0,0,0);
+  height:100%;
+  width:100%;
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:0.8;}
+.cross{
+ position:absolute;
+ top:20px;
+ right:25px;
+ font-size:18px;}
+.text
+ {
+  text-align:center;
+  vertical-align:middle;
+  line-height:850px;
+  font-size:50px;
+  color:white;}
+  .wrapper
+   {
+   max-width:1200px;
+   margin:0 auto;}
+</style>
+</head>
+<body>
+<div class="wrapper">
+<div class="p0">
+<h1 id="Header">Header</h1>
+</div>
+<div class="p1">
+<h1 id="Sidebar">SideBar</h1>
+</div>
+<div class="p2">
+<h1 id="MainContent">MainContent</h1>
+</div>
+<div class="p4">
+<h1 id="ExtraContent">ExtraContent</h1>
+</div>
+<div class="p3">
+<h1 id="Fotter">Fotter</h1>
+</div>
+</div>
+<div class="alert">
+ <img class"cross" src="./close.png">
+   <h1 class="text">I am popup</h1>
+</div>
+
+
+</body>
+</html>
