@@ -5,8 +5,10 @@
 <script>
  $(document).ready(function(){
    $("#button1").click(function(){
+       if($('#fb1').val().length==0&&$('#sb1').val().length==0){
      alert("Please fill all the fields");
 });
+   });
 });
 </script>
 
@@ -14,9 +16,9 @@
 <body>
   <form>
     First name:<br>
-    <input type="text" name="firstname"><br>
+    <input type="text" name="fb1"><br>
     Last name:<br>
-    <input type="text" name="secondname">
+    <input type="text" name="sb1">
     <br>
     <input type="submit"   id="button1" value="submit">
 </form>
