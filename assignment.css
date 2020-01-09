@@ -1,0 +1,169 @@
+ *{
+  margin:0px;
+  padding:0px;
+  }
+.p0{
+ width:100%;
+  background-color:lightgray;
+  margin:0px auto;
+  float:left;
+  }
+img{
+width: 100%;
+height: 100%;
+}
+.container{
+  width: 1000px;
+  margin: 0px auto;
+}
+#pic{
+  width: 100px;
+  height: 35px;
+  display: inline-block;
+  float: left;
+  margin-top:19px;
+}
+.banner{
+  width:100%;
+  background-color: blue;
+  margin: 0px auto;
+  float: left;
+}
+
+#heading
+  {
+
+  }
+  #lists
+    {
+      
+      float:right;
+    
+    }
+  #lists li{
+      display: inline-block;
+      font-size: 20px;
+      color: white;
+      margin:0px auto;
+       }
+  #lists li a{
+       padding:25px;
+       display:inline-block;
+       
+  }
+  #lists li a:hover{
+      background-color: black;
+      margin:0px;
+      padding:10px;
+
+  }
+  .pic1{
+    float:left;
+  width:50px;
+    height: 50px;
+    display: inline-block;
+    margin: 20px 0;
+  }
+ #head1{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+ }
+.pic2{
+  float:right;
+  width:50px;
+    height: 50px;
+    display: inline-block;
+    margin: 20px 0;
+}
+.bannertext{
+  display: inline-block;
+  width: 900px;
+  text-align: center;
+  margin: 30px 0;
+}
+.content
+ {
+  float:left;
+  background-color:white;
+  width:100%;
+ }
+ 
+ .leftpic{
+  
+  background-color:yellow;
+  width:450px;
+  height:400px;
+  float: left;
+  position:relative;
+  margin:10px auto;
+ }
+.frontpic{
+  background-color:purple;
+  width:250px;
+  height:280px;
+  float:left;
+  position:absolute;
+  top:20px;
+  left:-20px;
+}
+.orange{
+  background-color:#f57b11;
+   width:540px;
+   height:200px;
+   float:right;
+   
+
+}
+.rightpic1{
+  margin:10px auto; 
+  float:right;
+  width:540px;
+  height:400px;
+}
+.forms{
+  margin:10px 10px;
+}
+.colorf
+ {
+  background-color: orange;
+  border:1px solid ;
+  margin-top: 10px
+ }
+ .colorf1{
+  background-color:orange;
+  width:234px;
+  border:1px solid ;
+  margin-top: 10px
+ }
+ .downdiv{
+  margin: 10px auto;
+  width:540px;
+  height:190px;     
+  background-color:#9efa34;
+  float:right;
+ }
+ .fotter{
+   float: left;
+   width:100%;
+   background-color: #008080;
+   text-align: center;
+          
+ }
+ #List1 li{
+      display: inline-block;
+      font-size: 20px;
+      color: white;
+      margin:0px auto;
+ }
+ #List1 li a{
+       padding:25px;
+       display:block;
+ }
+ #List1 li a:hover{
+      background-color: black;
+      margin:0px;
+      padding:10px;
+
+
+ }
